@@ -1,0 +1,70 @@
+body {
+    background-color: #1c1818;
+}
+
+.maintbl {
+    border: 1px solid rgb(255, 255, 255);
+    margin: 0 auto;
+}
+
+.maintbl th {
+    color: white;
+    font-size: 5vh;
+    width: 10vh;
+    border-right: 1px solid rgb(255, 255, 255);
+}
+
+.void{
+    background-color: purple;
+    display: block;
+}
+.itemArea table {
+    height: 40vh;
+    text-align: center;
+    width: 50vw;
+    margin: 0 auto;
+}
+
+.itemArea th {
+    color: #fff;
+}
+
+.itemArea td {
+    color: #fff;
+
+}
+
+h2 {
+    color: white;
+}
+
+.itemImg {
+    width: 100%;
+}
+
+
+
+/*infoエリアをはじめは非表示*/
+.info {
+    display: none;
+}
+
+/*モーダルの横幅を変更したい場合*/
+.modaal-container {
+    max-width: 60vw;
+    max-height: 50vh;
+    background-color: #1c1818;
+}
+
+/*モーダルのボタンの色を変更したい場合*/
+.modaal-close:after,
+.modaal-close:before {
+    background: #ccc;
+}
+
+.modaal-close:focus:after,
+.modaal-close:focus:before,
+.modaal-close:hover:after,
+.modaal-close:hover:before {
+    background: #666;
+}
