@@ -33,7 +33,7 @@ body {
 
     .tab li {
         box-sizing: border-box;
-        width: calc(100%/7);
+        width: calc(100%/8);
         border: solid 1px #1c1818;
     }
 
@@ -118,6 +118,22 @@ body {
 
     .itemArea th {
         color: #fff;
+        width: 20%;
+    }
+
+    .text {
+        font-size: 3vh;
+        width: 20%;
+
+    }
+
+    .rank {
+        font-size: 5vh;
+        width: 10%;
+    }
+
+    .baf {
+        height: 5vh;
     }
 
     .itemArea td {
@@ -130,7 +146,7 @@ body {
     }
 
     .itemImg {
-        width: 100%;
+        width: 80%;
     }
 
     .modal-open img {
@@ -145,7 +161,6 @@ body {
     /*モーダルの横幅を変更したい場合*/
     .modaal-container {
         max-width: 60vw;
-        max-height: 50vh;
         background-color: #1c1818;
     }
 
@@ -269,7 +284,10 @@ body {
     }
 
     .maintbl td {
-        padding: .2vw;
+        width: 7vw;
+    }
+    .maintbl td p{
+        width: 7vw;
     }
 
     .void {
@@ -280,12 +298,28 @@ body {
     .itemArea table {
         height: 40vh;
         text-align: center;
-        width: 50vw;
+        width: 70vw;
         margin: 0 auto;
     }
 
     .itemArea th {
         color: #fff;
+        width: 20%;
+    }
+
+    .text {
+        font-size: 3vh;
+        width: 20%;
+
+    }
+
+    .rank {
+        font-size: 10vw;
+        width: 10%;
+    }
+
+    .baf {
+        height: 5vh;
     }
 
     .itemArea td {
@@ -295,10 +329,11 @@ body {
 
     h2 {
         color: white;
+        font-size: 4vw;
     }
 
     .itemImg {
-        width: 100%;
+        width: 80%;
     }
 
     .modal-open img {
@@ -312,8 +347,6 @@ body {
 
     /*モーダルの横幅を変更したい場合*/
     .modaal-container {
-        max-width: 60vw;
-        max-height: 50vh;
         background-color: #1c1818;
     }
 
